@@ -1,0 +1,21 @@
+# set `baseurl` to your root domain
+# if you set it to "/" share icons won't work properly on production
+baseurl = "http://sendybram.netlify.app/"  # Include trailing slash
+copyright = "Copyright © 2019–2021, Sendy Brammadi and the Hugo Authors; all rights reserved."
+# canonifyurls = true
+paginate = 10
+theme = "hugo-clarity"
+disqusShortname = "geodesiana"
+disablePathToLower = false
+
+metaDataFormat = "yaml"
+
+DefaultContentLanguage = "en"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[permalinks]
+post = "/:year/:month/:slug/"
