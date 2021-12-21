@@ -2,123 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/notices/</loc>
-    <lastmod>2021-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>http://sendybram.netlify.app/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2021-01-12-azimuth-matahari-2/</loc>
+    <loc>http://sendybram.netlify.app/tags/azimuth/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/sunshot/</loc>
+    <loc>http://sendybram.netlify.app/categories/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>http://sendybram.netlify.app/2021/01/penentuan-azimuth-2/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/topo/</loc>
+    <loc>http://sendybram.netlify.app/post/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2021-01-03-lptides/</loc>
+    <loc>http://sendybram.netlify.app/tags/sunshot/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/tags/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/categories/topografi/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/categories/hidrografi/</loc>
     <lastmod>2021-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2021-01-11-azimuth-matahari-1/</loc>
+    <loc>http://sendybram.netlify.app/2021/01/lp-tides-simpel/</loc>
     <lastmod>2021-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2020-11-07-pengolahan-slp/</loc>
+    <loc>http://sendybram.netlify.app/tags/matlab/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/tags/pasut/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/2021/01/penentuan-azimuth-1/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/tags/t-tide/</loc>
+    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/2020/11/pengolahan-pasut-slp64/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2020-04-05-installasi-mbsystem-ubuntu/</loc>
+    <loc>http://sendybram.netlify.app/tags/slp64/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/2020/04/installasi-mbsystem-dalam-ubuntu2004/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2020-02-28-mengubah-zona-waktu/</loc>
+    <loc>http://sendybram.netlify.app/tags/linux/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/tags/mb-system/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/tags/mbes/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/tags/multibeam/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sendybram.netlify.app/2020/02/mengubah-zona-waktu-data-pasut/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2020-02-27-pengolahan-ttide-2/</loc>
+    <loc>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-2/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2020-02-26-multiprocess-ttide/</loc>
+    <loc>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/</loc>
     <lastmod>2020-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>http://sendybram.netlify.app/about/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/2020-02-02-pengolahan-ttide-1/</loc>
+    <loc>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-1/</loc>
     <lastmod>2020-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>http://sendybram.netlify.app/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>http://sendybram.netlify.app/tags/index/</loc>
   </url><url>
-    <loc>https://example.com/tags/destacado/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/featured/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/markdown-syntax.pt/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/series/guia-de-temas/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/sintaxe/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/temas/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/temas/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/index/</loc>
+    <loc>http://sendybram.netlify.app/series/</loc>
   </url>
 </urlset>

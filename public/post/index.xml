@@ -2,35 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Geodesiana</title>
-    <link>https://example.com/post/</link>
+    <link>http://sendybram.netlify.app/post/</link>
     <description>Recent content in Posts on Geodesiana</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 20 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Using Notices</title>
-      <link>https://example.com/post/notices/</link>
-      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/notices/</guid>
-      <description>
-        
-          
-            The &amp;quot;Notices&amp;quot; shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.
-To create a notice on a page, you can use the notice shortcode.
-You use the notice shortcode, with the first parameter being one of note, info, tip, and warning. Then add a title for your note in quotes as the second parameter. The inner body of the note can be whatever markdown you want to create.
-          
-          
-        
-      </description>
-    </item>
-    
+    <copyright>Copyright © 2019–2021, Sendy Brammadi and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://sendybram.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Penentuan Azimuth Dengan Pengamatan Matahari – Bagian 2</title>
-      <link>https://example.com/post/2021-01-12-azimuth-matahari-2/</link>
+      <link>http://sendybram.netlify.app/2021/01/penentuan-azimuth-2/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2021-01-12-azimuth-matahari-2/</guid>
+      <guid>http://sendybram.netlify.app/2021/01/penentuan-azimuth-2/</guid>
       <description>
         
           
@@ -45,10 +27,10 @@ You use the notice shortcode, with the first parameter being one of note, info, 
     
     <item>
       <title>LP-TIDES - Menggunakan T_Tide Tanpa Ribet nyekrip</title>
-      <link>https://example.com/post/2021-01-03-lptides/</link>
+      <link>http://sendybram.netlify.app/2021/01/lp-tides-simpel/</link>
       <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2021-01-03-lptides/</guid>
+      <guid>http://sendybram.netlify.app/2021/01/lp-tides-simpel/</guid>
       <description>
         
           
@@ -63,10 +45,10 @@ Akan tetapi dasar pemrograman T_Tide yang menggunakan Matlab terkadang menyulitk
     
     <item>
       <title>Penentuan Azimuth Dengan Pengamatan Matahari - Bagian 1</title>
-      <link>https://example.com/post/2021-01-11-azimuth-matahari-1/</link>
+      <link>http://sendybram.netlify.app/2021/01/penentuan-azimuth-1/</link>
       <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2021-01-11-azimuth-matahari-1/</guid>
+      <guid>http://sendybram.netlify.app/2021/01/penentuan-azimuth-1/</guid>
       <description>
         
           
@@ -81,10 +63,10 @@ Mayoritas pekerjaan dalam survey pemetaan, terutama yang menggunakan jaring poli
     
     <item>
       <title>Pengolahan Data Pasang Surut Laut Menggunakan SLP64</title>
-      <link>https://example.com/post/2020-11-07-pengolahan-slp/</link>
+      <link>http://sendybram.netlify.app/2020/11/pengolahan-pasut-slp64/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-11-07-pengolahan-slp/</guid>
+      <guid>http://sendybram.netlify.app/2020/11/pengolahan-pasut-slp64/</guid>
       <description>
         
           
@@ -101,14 +83,15 @@ Fungsi utama dari SLP64 sendiri antara lain :
     
     <item>
       <title>Installasi MB-System dalam Ubuntu 20.04</title>
-      <link>https://example.com/post/2020-04-05-installasi-mbsystem-ubuntu/</link>
+      <link>http://sendybram.netlify.app/2020/04/installasi-mbsystem-dalam-ubuntu2004/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-04-05-installasi-mbsystem-ubuntu/</guid>
+      <guid>http://sendybram.netlify.app/2020/04/installasi-mbsystem-dalam-ubuntu2004/</guid>
       <description>
         
           
-            0.1 UPDATE 12 Mei 2020 0.2 UPDATE 28 Desember 2020
+            0.1 UPDATE 12 Mei 2020
+0.2 UPDATE 28 Desember 2020
 MB-System merupakan software yang bersifat open source yang diperuntukkan untuk pengolahan dan visualisasi data batimetri dan image backscatter dari multibeam, interferometry dan sidescan sonar. MB-System dikembangkan oleh Lamont-Doherty Earth Observatory of Columbia University (L-DEO), dan berkolaborasi dengan Monterey Bay Aquarium Research Institute (MBARI) University of New Hampshire dan MARUM. (source : MBARI)
 Disini saya akan membahas langkah-langkah installasi MB-System ini dalam sistem operasi Ubuntu 20.
           
@@ -119,10 +102,10 @@ Disini saya akan membahas langkah-langkah installasi MB-System ini dalam sistem 
     
     <item>
       <title>Mengubah Zona Waktu Pada Data Pengamatan Pasut</title>
-      <link>https://example.com/post/2020-02-28-mengubah-zona-waktu/</link>
+      <link>http://sendybram.netlify.app/2020/02/mengubah-zona-waktu-data-pasut/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-02-28-mengubah-zona-waktu/</guid>
+      <guid>http://sendybram.netlify.app/2020/02/mengubah-zona-waktu-data-pasut/</guid>
       <description>
         
           
@@ -137,10 +120,10 @@ Nah, dalam tulisan ini kita akan mengubah waktu yang masih dalam UTC itu ke dala
     
     <item>
       <title>Pengolahan Data Pasang Surut Menggunakan T_Tide (Bagian 2)</title>
-      <link>https://example.com/post/2020-02-27-pengolahan-ttide-2/</link>
+      <link>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-2/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-02-27-pengolahan-ttide-2/</guid>
+      <guid>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-2/</guid>
       <description>
         
           
@@ -156,10 +139,10 @@ Dari script yang saya susun, nanti temen-temen tinggal mengedit beberapa hal sep
     
     <item>
       <title>Multi Processing Data Pasut Dengan T_Tide</title>
-      <link>https://example.com/post/2020-02-26-multiprocess-ttide/</link>
+      <link>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-02-26-multiprocess-ttide/</guid>
+      <guid>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/</guid>
       <description>
         
           
@@ -174,97 +157,15 @@ File data yang digunakan dalam bentuk excel dan semua bisa di download :floppy_d
     
     <item>
       <title>Pengolahan data pasang surut menggunakan t_tide</title>
-      <link>https://example.com/post/2020-02-02-pengolahan-ttide-1/</link>
+      <link>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-1/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-02-02-pengolahan-ttide-1/</guid>
+      <guid>http://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-1/</guid>
       <description>
         
           
             Dalam ilmu geodesi, pasang surut air laut memiliki peranan penting dalam penentuan datum vertikal atau referensi acuan sebagai nilai elevasi suatu titik. Nilai datum vertikal atau chart datum ini diperoleh dari penjumlahan amplitudo nilai konstanta harmonik yang merupakan hasil pengolahan data pasut dari hasil pengamatan selama periode tertentu.
 Nah salah satu tools yang bisa digunakan untuk mendapatkan nilai konstanta harmonik ini adalah T_Tide. T_Tide sendiri sebenarnya adalah kumpulan script yang berjalan pada software MATLAB yang dikembangkan oleh Rich Pawlowicz.
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Guia de Sintaxe Markdown</title>
-      <link>https://example.com/post/markdown-syntax.pt/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/markdown-syntax.pt/</guid>
-      <description>
-        
-          
-            &lt;p&gt;&lt;strong&gt;Este artigo oferece um exemplo básico de uma tradução em Português. O restante conteúdo não foi traduzido.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Artigo original: https://example.com/post/markdown-syntax/&lt;/p&gt;
-&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://example.com/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/markdown-syntax/</guid>
-      <description>
-        
-          
-            &lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://example.com/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/placeholder-text/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://example.com/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/math-typesetting/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://example.com/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/emoji-support/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
           
           
         
