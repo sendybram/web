@@ -12,35 +12,35 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:creator content="@sendybram_">
 <meta name=twitter:title content="Multi Processing Data Pasut Dengan T_Tide">
-<meta property="og:url" content="https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-multiprocess/">
+<meta property="og:url" content="https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/">
 <meta property="og:title" content="Multi Processing Data Pasut Dengan T_Tide">
 <meta property="og:description" content="Terkadang kita mendapatkan banyak data pengamatan pasut yang harus diolah untuk mendapatkan konstanta harmonik tiap stasiun pengamatan. Semisal saat kita ingin …">
-<meta property="og:image" content="https://sendybram.github.io/web/images/thumbnail.png">
-<link rel=apple-touch-icon sizes=180x180 href=https://sendybram.github.io/web/icons/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=https://sendybram.github.io/web/icons/favicon-32x32.png>
-<link rel=manifest href=https://sendybram.github.io/web/icons/site.webmanifest>
-<link rel=canonical href=https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-multiprocess/>
-<link rel=preload href=https://sendybram.github.io/web/css/styles.01869c76e4757810d94ecbdccadba853d9d01d9416dfeb113df02e1479ff8b36e284e8bfeb3e8f353f2fdcdcbbdfcf27e558dbda96eb6341bfc304d55cd9e986.css integrity="sha512-AYacduR1eBDZTsvcytuoU9nQHZQW3+sRPfAuFHn/izbihOi/6z6PNT8v3Ny7388n5Vjb2pbrY0G/wwTVXNnphg==" as=style crossorigin=anonymous>
-<link rel=preload href=https://sendybram.github.io/web/js/bundle.min.061d04727b51b0a8fafe2f15b9370a961f33306e7af52abd00d69c906f5d825f1599306159d7756d7d2b4f359767a170625ae541d1f37d05c1daa4d5c7feec25.js as=script integrity="sha512-Bh0EcntRsKj6/i8VuTcKlh8zMG569Sq9ANackG9dgl8VmTBhWdd1bX0rTzWXZ6FwYlrlQdHzfQXB2qTVx/7sJQ==" crossorigin=anonymous>
-<link rel=stylesheet type=text/css href=https://sendybram.github.io/web/css/styles.01869c76e4757810d94ecbdccadba853d9d01d9416dfeb113df02e1479ff8b36e284e8bfeb3e8f353f2fdcdcbbdfcf27e558dbda96eb6341bfc304d55cd9e986.css integrity="sha512-AYacduR1eBDZTsvcytuoU9nQHZQW3+sRPfAuFHn/izbihOi/6z6PNT8v3Ny7388n5Vjb2pbrY0G/wwTVXNnphg==" crossorigin=anonymous>
+<meta property="og:image" content="https://sendybram.netlify.app/images/thumbnail.png">
+<link rel=apple-touch-icon sizes=180x180 href=https://sendybram.netlify.app/icons/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=https://sendybram.netlify.app/icons/favicon-32x32.png>
+<link rel=manifest href=https://sendybram.netlify.app/icons/site.webmanifest>
+<link rel=canonical href=https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/>
+<link rel=preload href=https://sendybram.netlify.app/css/styles.01869c76e4757810d94ecbdccadba853d9d01d9416dfeb113df02e1479ff8b36e284e8bfeb3e8f353f2fdcdcbbdfcf27e558dbda96eb6341bfc304d55cd9e986.css integrity="sha512-AYacduR1eBDZTsvcytuoU9nQHZQW3+sRPfAuFHn/izbihOi/6z6PNT8v3Ny7388n5Vjb2pbrY0G/wwTVXNnphg==" as=style crossorigin=anonymous>
+<link rel=preload href=https://sendybram.netlify.app/js/bundle.min.061d04727b51b0a8fafe2f15b9370a961f33306e7af52abd00d69c906f5d825f1599306159d7756d7d2b4f359767a170625ae541d1f37d05c1daa4d5c7feec25.js as=script integrity="sha512-Bh0EcntRsKj6/i8VuTcKlh8zMG569Sq9ANackG9dgl8VmTBhWdd1bX0rTzWXZ6FwYlrlQdHzfQXB2qTVx/7sJQ==" crossorigin=anonymous>
+<link rel=stylesheet type=text/css href=https://sendybram.netlify.app/css/styles.01869c76e4757810d94ecbdccadba853d9d01d9416dfeb113df02e1479ff8b36e284e8bfeb3e8f353f2fdcdcbbdfcf27e558dbda96eb6341bfc304d55cd9e986.css integrity="sha512-AYacduR1eBDZTsvcytuoU9nQHZQW3+sRPfAuFHn/izbihOi/6z6PNT8v3Ny7388n5Vjb2pbrY0G/wwTVXNnphg==" crossorigin=anonymous>
 </head>
 <body data-code=100 data-lines=false id=documentTop>
 <header class=nav_header>
-<nav class=nav><a href=https://sendybram.github.io/web/ class="nav_brand nav_item" title=Geodesiana>
-<img src=https://sendybram.github.io/web/logos/logo.png class=logo alt=Geodesiana>
+<nav class=nav><a href=https://sendybram.netlify.app/ class="nav_brand nav_item" title=Geodesiana>
+<img src=https://sendybram.netlify.app/logos/logo.png class=logo alt=Geodesiana>
 <div class=nav_close>
 <div><svg class="icon"><use xlink:href="#open-menu"/></svg><svg class="icon"><use xlink:href="#closeme"/></svg></div>
 </div>
 </a>
 <div class="nav_body nav_body_left">
 <div class=nav_parent>
-<a href=https://sendybram.github.io/web/ class=nav_item title=Home>Home </a>
+<a href=https://sendybram.netlify.app/ class=nav_item title=Home>Home </a>
 </div>
 <div class=nav_parent>
-<a href=https://sendybram.github.io/web/archives/ class=nav_item title=Archives>Archives </a>
+<a href=https://sendybram.netlify.app/archives/ class=nav_item title=Archives>Archives </a>
 </div>
 <div class=nav_parent>
-<a href=https://sendybram.github.io/web/ class=nav_item title=Links>Links <img src=https://sendybram.github.io/web/icons/caret-icon.svg alt=icon class=nav_icon></a>
+<a href=https://sendybram.netlify.app/ class=nav_item title=Links>Links <img src=https://sendybram.netlify.app/icons/caret-icon.svg alt=icon class=nav_icon></a>
 <div class=nav_sub>
 <span class=nav_child></span>
 <a href=https://www.linkedin.com/ class="nav_child nav_item" title=LinkedIn>LinkedIn</a>
@@ -48,7 +48,7 @@
 </div>
 </div>
 <div class=nav_parent>
-<a href=https://sendybram.github.io/web/about/ class=nav_item title=About>About </a>
+<a href=https://sendybram.netlify.app/about/ class=nav_item title=About>About </a>
 </div>
 <div class=follow>
 <a href=https://github.com/sendybram><svg class="icon"><use xlink:href="#github"/></svg>
@@ -57,7 +57,7 @@
 </a>
 <a href=https://www.linkedin.com/in/#><svg class="icon"><use xlink:href="#linkedin"/></svg>
 </a>
-<a href=https://sendybram.github.io/web/index.xml><svg class="icon"><use xlink:href="#rss"/></svg>
+<a href=https://sendybram.netlify.app/index.xml><svg class="icon"><use xlink:href="#rss"/></svg>
 </a>
 <div class=color_mode>
 <input type=checkbox class=color_choice id=mode>
@@ -74,21 +74,21 @@
 <span><svg class="icon"><use xlink:href="#calendar"/></svg></span>
 <span class=post_date>
 Feb 26, 2020</span>
-<span class=post_time> · 1 min read</span><span>&nbsp;· <a href=https://sendybram.github.io/web/tags/t-tide title=T-Tide class="post_tag button button_translucent">T-Tide
-</a><a href=https://sendybram.github.io/web/tags/matlab title=Matlab class="post_tag button button_translucent">Matlab
-</a><a href=https://sendybram.github.io/web/tags/pasut title=Pasut class="post_tag button button_translucent">Pasut
+<span class=post_time> · 1 min read</span><span>&nbsp;· <a href=https://sendybram.netlify.app/tags/t-tide title=T-Tide class="post_tag button button_translucent">T-Tide
+</a><a href=https://sendybram.netlify.app/tags/matlab title=Matlab class="post_tag button button_translucent">Matlab
+</a><a href=https://sendybram.netlify.app/tags/pasut title=Pasut class="post_tag button button_translucent">Pasut
 </a>
 </span>
 <span class=page_only>&nbsp;·
 <div class=post_share>
 Share on:
-<a href="https://twitter.com/intent/tweet?text=Multi%20Processing%20Data%20Pasut%20Dengan%20T_Tide&url=https%3a%2f%2fsendybram.github.io%2fweb%2f2020%2f02%2fpengolahan-pasut-ttide-multiprocess%2f&tw_p=tweetbutton" class=twitter title="Share on Twitter" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#twitter"/></svg>
+<a href="https://twitter.com/intent/tweet?text=Multi%20Processing%20Data%20Pasut%20Dengan%20T_Tide&url=https%3a%2f%2fsendybram.netlify.app%2f2020%2f02%2fpengolahan-pasut-ttide-multiprocess%2f&tw_p=tweetbutton" class=twitter title="Share on Twitter" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#twitter"/></svg>
 </a>
-<a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsendybram.github.io%2fweb%2f2020%2f02%2fpengolahan-pasut-ttide-multiprocess%2f&t=Multi%20Processing%20Data%20Pasut%20Dengan%20T_Tide" class=facebook title="Share on Facebook" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#facebook"/></svg>
+<a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsendybram.netlify.app%2f2020%2f02%2fpengolahan-pasut-ttide-multiprocess%2f&t=Multi%20Processing%20Data%20Pasut%20Dengan%20T_Tide" class=facebook title="Share on Facebook" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#facebook"/></svg>
 </a>
 <a href=#linkedinshare id=linkedinshare class=linkedin title="Share on LinkedIn" rel=nofollow><svg class="icon"><use xlink:href="#linkedin"/></svg>
 </a>
-<a href=https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-multiprocess/ title="Copy Link" class="link link_yank"><svg class="icon"><use xlink:href="#copy"/></svg>
+<a href=https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/ title="Copy Link" class="link link_yank"><svg class="icon"><use xlink:href="#copy"/></svg>
 </a>
 </div>
 </span>
@@ -105,14 +105,14 @@ Share on:
 <p>
 <figure>
 <picture>
-<img class="image_figure image_internal" src=/web/2020/02/pengolahan-pasut-ttide-multiprocess/multi1.png alt="contoh data" loading=lazy decoding=async width=196 height=161>
+<img class="image_figure image_internal" src=/2020/02/pengolahan-pasut-ttide-multiprocess/multi1.png alt="contoh data" loading=lazy decoding=async width=196 height=161>
 </picture>
 </figure>
 </p>
 <p>
 <figure>
 <picture>
-<img class="image_figure image_internal" src=/web/2020/02/pengolahan-pasut-ttide-multiprocess/multi2.png alt="Pilih lokasi simpan" loading=lazy decoding=async width=529 height=332 title="Memilih folder penyimpanan data">
+<img class="image_figure image_internal" src=/2020/02/pengolahan-pasut-ttide-multiprocess/multi2.png alt="Pilih lokasi simpan" loading=lazy decoding=async width=529 height=332 title="Memilih folder penyimpanan data">
 <figcaption>Memilih folder penyimpanan data</figcaption>
 </picture>
 </figure>
@@ -123,14 +123,14 @@ Share on:
 <p>
 <figure>
 <picture>
-<img class="image_figure image_internal" src=/web/2020/02/pengolahan-pasut-ttide-multiprocess/multi3.png alt loading=lazy decoding=async width=528 height=432>
+<img class="image_figure image_internal" src=/2020/02/pengolahan-pasut-ttide-multiprocess/multi3.png alt loading=lazy decoding=async width=528 height=432>
 </picture>
 </figure>
 </p>
 <p>
 <figure>
 <picture>
-<img class="image_figure image_internal" src=/web/2020/02/pengolahan-pasut-ttide-multiprocess/multi4.png alt=report loading=lazy decoding=async width=240 height=156 title="Contoh report hasil pengolahan">
+<img class="image_figure image_internal" src=/2020/02/pengolahan-pasut-ttide-multiprocess/multi4.png alt=report loading=lazy decoding=async width=240 height=156 title="Contoh report hasil pengolahan">
 <figcaption>Contoh report hasil pengolahan</figcaption>
 </picture>
 </figure>
@@ -150,33 +150,33 @@ Share on:
 <div class=author_bio>
 Surveyor, Geodetic Engineer.
 </div>
-<a href=https://sendybram.github.io/web/about/ class="button mt-1" role=button title="Read More">Read More</a>
+<a href=https://sendybram.netlify.app/about/ class="button mt-1" role=button title="Read More">Read More</a>
 <h2 class=mt-4>Recent Posts</h2>
 <ul class=flex-column>
 <li>
-<a href=https://sendybram.github.io/web/2021/01/penentuan-azimuth-2/ class=nav-link title="Penentuan Azimuth Dengan Pengamatan Matahari – Bagian 2">Penentuan Azimuth Dengan Pengamatan Matahari – Bagian 2</a>
+<a href=https://sendybram.netlify.app/2021/01/penentuan-azimuth-2/ class=nav-link title="Penentuan Azimuth Dengan Pengamatan Matahari – Bagian 2">Penentuan Azimuth Dengan Pengamatan Matahari – Bagian 2</a>
 </li>
 <li>
-<a href=https://sendybram.github.io/web/2021/01/lp-tides-simpel/ class=nav-link title="LP-TIDES - Menggunakan T_Tide Tanpa Ribet nyekrip">LP-TIDES - Menggunakan T_Tide Tanpa Ribet nyekrip</a>
+<a href=https://sendybram.netlify.app/2021/01/lp-tides-simpel/ class=nav-link title="LP-TIDES - Menggunakan T_Tide Tanpa Ribet nyekrip">LP-TIDES - Menggunakan T_Tide Tanpa Ribet nyekrip</a>
 </li>
 <li>
-<a href=https://sendybram.github.io/web/2021/01/penentuan-azimuth-1/ class=nav-link title="Penentuan Azimuth Dengan Pengamatan Matahari - Bagian 1">Penentuan Azimuth Dengan Pengamatan Matahari - Bagian 1</a>
+<a href=https://sendybram.netlify.app/2021/01/penentuan-azimuth-1/ class=nav-link title="Penentuan Azimuth Dengan Pengamatan Matahari - Bagian 1">Penentuan Azimuth Dengan Pengamatan Matahari - Bagian 1</a>
 </li>
 <li>
-<a href=https://sendybram.github.io/web/2020/11/pengolahan-pasut-slp64/ class=nav-link title="Pengolahan Data Pasang Surut Laut Menggunakan SLP64">Pengolahan Data Pasang Surut Laut Menggunakan SLP64</a>
+<a href=https://sendybram.netlify.app/2020/11/pengolahan-pasut-slp64/ class=nav-link title="Pengolahan Data Pasang Surut Laut Menggunakan SLP64">Pengolahan Data Pasang Surut Laut Menggunakan SLP64</a>
 </li>
 <li>
-<a href=https://sendybram.github.io/web/2020/04/installasi-mbsystem-dalam-ubuntu2004/ class=nav-link title="Installasi MB-System dalam Ubuntu 20.04">Installasi MB-System dalam Ubuntu 20.04</a>
+<a href=https://sendybram.netlify.app/2020/04/installasi-mbsystem-dalam-ubuntu2004/ class=nav-link title="Installasi MB-System dalam Ubuntu 20.04">Installasi MB-System dalam Ubuntu 20.04</a>
 </li>
 </ul>
 <div>
 <h2 class="mt-4 taxonomy" id=categories-section>Categories</h2>
 <nav class=tags_nav>
-<a href=https://sendybram.github.io/web/categories/hidrografi/ class="post_tag button button_translucent" title=hidrografi>
+<a href=https://sendybram.netlify.app/categories/hidrografi/ class="post_tag button button_translucent" title=hidrografi>
 HIDROGRAFI
 <span class=button_tally>7</span>
 </a>
-<a href=https://sendybram.github.io/web/categories/topografi/ class="post_tag button button_translucent" title=topografi>
+<a href=https://sendybram.netlify.app/categories/topografi/ class="post_tag button button_translucent" title=topografi>
 TOPOGRAFI
 <span class=button_tally>2</span>
 </a>
@@ -185,27 +185,27 @@ TOPOGRAFI
 <div>
 <h2 class="mt-4 taxonomy" id=tags-section>Tags</h2>
 <nav class=tags_nav>
-<a href=https://sendybram.github.io/web/tags/pasut/ class="post_tag button button_translucent" title=pasut>
+<a href=https://sendybram.netlify.app/tags/pasut/ class="post_tag button button_translucent" title=pasut>
 PASUT
 <span class=button_tally>6</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/matlab/ class="post_tag button button_translucent" title=matlab>
+<a href=https://sendybram.netlify.app/tags/matlab/ class="post_tag button button_translucent" title=matlab>
 MATLAB
 <span class=button_tally>5</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/t-tide/ class="post_tag button button_translucent" title=t-tide>
+<a href=https://sendybram.netlify.app/tags/t-tide/ class="post_tag button button_translucent" title=t-tide>
 T-TIDE
 <span class=button_tally>4</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/azimuth/ class="post_tag button button_translucent" title=azimuth>
+<a href=https://sendybram.netlify.app/tags/azimuth/ class="post_tag button button_translucent" title=azimuth>
 AZIMUTH
 <span class=button_tally>2</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/sunshot/ class="post_tag button button_translucent" title=sunshot>
+<a href=https://sendybram.netlify.app/tags/sunshot/ class="post_tag button button_translucent" title=sunshot>
 SUNSHOT
 <span class=button_tally>2</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/index/ class="post_tag button button_translucent" title=index>
+<a href=https://sendybram.netlify.app/tags/index/ class="post_tag button button_translucent" title=index>
 INDEX
 <span class=button_tally>1</span>
 </a>
@@ -213,27 +213,27 @@ INDEX
 <div class="post_tags_toggle button">All Tags</div>
 <div class=post_tags>
 <div class=tags_list>
-<a href=https://sendybram.github.io/web/tags/azimuth/ class="post_tag button button_translucent" data-position=2 title=azimuth>AZIMUTH<span class=button_tally>2</span>
+<a href=https://sendybram.netlify.app/tags/azimuth/ class="post_tag button button_translucent" data-position=2 title=azimuth>AZIMUTH<span class=button_tally>2</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/index/ class="post_tag button button_translucent" data-position=1 title=index>INDEX<span class=button_tally>1</span>
+<a href=https://sendybram.netlify.app/tags/index/ class="post_tag button button_translucent" data-position=1 title=index>INDEX<span class=button_tally>1</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/linux/ class="post_tag button button_translucent" data-position=1 title=linux>LINUX<span class=button_tally>1</span>
+<a href=https://sendybram.netlify.app/tags/linux/ class="post_tag button button_translucent" data-position=1 title=linux>LINUX<span class=button_tally>1</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/matlab/ class="post_tag button button_translucent" data-position=5 title=matlab>MATLAB<span class=button_tally>5</span>
+<a href=https://sendybram.netlify.app/tags/matlab/ class="post_tag button button_translucent" data-position=5 title=matlab>MATLAB<span class=button_tally>5</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/mb-system/ class="post_tag button button_translucent" data-position=1 title=mb-system>MB-SYSTEM<span class=button_tally>1</span>
+<a href=https://sendybram.netlify.app/tags/mb-system/ class="post_tag button button_translucent" data-position=1 title=mb-system>MB-SYSTEM<span class=button_tally>1</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/mbes/ class="post_tag button button_translucent" data-position=1 title=mbes>MBES<span class=button_tally>1</span>
+<a href=https://sendybram.netlify.app/tags/mbes/ class="post_tag button button_translucent" data-position=1 title=mbes>MBES<span class=button_tally>1</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/multibeam/ class="post_tag button button_translucent" data-position=1 title=multibeam>MULTIBEAM<span class=button_tally>1</span>
+<a href=https://sendybram.netlify.app/tags/multibeam/ class="post_tag button button_translucent" data-position=1 title=multibeam>MULTIBEAM<span class=button_tally>1</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/pasut/ class="post_tag button button_translucent" data-position=6 title=pasut>PASUT<span class=button_tally>6</span>
+<a href=https://sendybram.netlify.app/tags/pasut/ class="post_tag button button_translucent" data-position=6 title=pasut>PASUT<span class=button_tally>6</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/slp64/ class="post_tag button button_translucent" data-position=1 title=slp64>SLP64<span class=button_tally>1</span>
+<a href=https://sendybram.netlify.app/tags/slp64/ class="post_tag button button_translucent" data-position=1 title=slp64>SLP64<span class=button_tally>1</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/sunshot/ class="post_tag button button_translucent" data-position=2 title=sunshot>SUNSHOT<span class=button_tally>2</span>
+<a href=https://sendybram.netlify.app/tags/sunshot/ class="post_tag button button_translucent" data-position=2 title=sunshot>SUNSHOT<span class=button_tally>2</span>
 </a>
-<a href=https://sendybram.github.io/web/tags/t-tide/ class="post_tag button button_translucent" data-position=4 title=t-tide>T-TIDE<span class=button_tally>4</span>
+<a href=https://sendybram.netlify.app/tags/t-tide/ class="post_tag button button_translucent" data-position=4 title=t-tide>T-TIDE<span class=button_tally>4</span>
 </a>
 <div class=tags_sort><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
 </div>
@@ -253,11 +253,11 @@ INDEX
 <script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:!0},{left:'$',right:'$',display:!1},{left:"\\begin{equation}",right:"\\end{equation}",display:!0},{left:"\\begin{align}",right:"\\end{align}",display:!0},{left:"\\begin{alignat}",right:"\\end{alignat}",display:!0},{left:"\\begin{gather}",right:"\\end{gather}",display:!0},{left:"\\begin{CD}",right:"\\end{CD}",display:!0},{left:'\\(',right:'\\)',display:!1},{left:'\\[',right:'\\]',display:!0}],throwOnError:!1})})</script>
 <footer class=footer>
 <div class="footer_inner wrap pale">
-<img src=https://sendybram.github.io/web/icons/apple-touch-icon.png class="icon icon_2 transparent" alt=Geodesiana>
+<img src=https://sendybram.netlify.app/icons/apple-touch-icon.png class="icon icon_2 transparent" alt=Geodesiana>
 <p>Copyright&nbsp;2020-&nbsp;<span class=year></span>&nbsp;GEODESIANA. All Rights Reserved</p><a class=to_top href=#documentTop><svg class="icon"><use xlink:href="#arrow"/></svg>
 </a>
 </div>
 </footer>
-<script type=text/javascript src=https://sendybram.github.io/web/js/bundle.min.061d04727b51b0a8fafe2f15b9370a961f33306e7af52abd00d69c906f5d825f1599306159d7756d7d2b4f359767a170625ae541d1f37d05c1daa4d5c7feec25.js integrity="sha512-Bh0EcntRsKj6/i8VuTcKlh8zMG569Sq9ANackG9dgl8VmTBhWdd1bX0rTzWXZ6FwYlrlQdHzfQXB2qTVx/7sJQ==" crossorigin=anonymous></script>
+<script type=text/javascript src=https://sendybram.netlify.app/js/bundle.min.061d04727b51b0a8fafe2f15b9370a961f33306e7af52abd00d69c906f5d825f1599306159d7756d7d2b4f359767a170625ae541d1f37d05c1daa4d5c7feec25.js integrity="sha512-Bh0EcntRsKj6/i8VuTcKlh8zMG569Sq9ANackG9dgl8VmTBhWdd1bX0rTzWXZ6FwYlrlQdHzfQXB2qTVx/7sJQ==" crossorigin=anonymous></script>
 </body>
 </html>
