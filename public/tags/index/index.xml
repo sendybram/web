@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Geodesiana</title>
-    <link>http://sendybram.netlify.app/tags/index/</link>
+    <link>https://sendybram.github.io/web/tags/index/</link>
     <description>Recent content in index on Geodesiana</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2019–2021, Sendy Brammadi and the Hugo Authors; all rights reserved.</copyright><atom:link href="http://sendybram.netlify.app/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2019–2021, Sendy Brammadi and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://sendybram.github.io/web/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>http://sendybram.netlify.app/post/</link>
+      <link>https://sendybram.github.io/web/post/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://sendybram.netlify.app/post/</guid>
+      <guid>https://sendybram.github.io/web/post/</guid>
       <description>
         
           
