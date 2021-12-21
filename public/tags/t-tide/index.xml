@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>T-Tide on Geodesiana</title>
-    <link>https://sendybram.github.io/web/tags/t-tide/</link>
+    <link>https://sendybram.netlify.app/tags/t-tide/</link>
     <description>Recent content in T-Tide on Geodesiana</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2019–2021, Sendy Brammadi and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sendybram.github.io/web/tags/t-tide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sendybram.netlify.app/tags/t-tide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LP-TIDES - Menggunakan T_Tide Tanpa Ribet nyekrip</title>
-      <link>https://sendybram.github.io/web/2021/01/lp-tides-simpel/</link>
+      <link>https://sendybram.netlify.app/2021/01/lp-tides-simpel/</link>
       <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sendybram.github.io/web/2021/01/lp-tides-simpel/</guid>
+      <guid>https://sendybram.netlify.app/2021/01/lp-tides-simpel/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@ Akan tetapi dasar pemrograman T_Tide yang menggunakan Matlab terkadang menyulitk
     
     <item>
       <title>Pengolahan Data Pasang Surut Menggunakan T_Tide (Bagian 2)</title>
-      <link>https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-2/</link>
+      <link>https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-2/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-2/</guid>
+      <guid>https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-2/</guid>
       <description>
         
           
@@ -46,10 +46,10 @@ Dari script yang saya susun, nanti temen-temen tinggal mengedit beberapa hal sep
     
     <item>
       <title>Multi Processing Data Pasut Dengan T_Tide</title>
-      <link>https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-multiprocess/</link>
+      <link>https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-multiprocess/</guid>
+      <guid>https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-multiprocess/</guid>
       <description>
         
           
@@ -64,10 +64,10 @@ File data yang digunakan dalam bentuk excel dan semua bisa di download :floppy_d
     
     <item>
       <title>Pengolahan data pasang surut menggunakan t_tide</title>
-      <link>https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-1/</link>
+      <link>https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-1/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://sendybram.github.io/web/2020/02/pengolahan-pasut-ttide-1/</guid>
+      <guid>https://sendybram.netlify.app/2020/02/pengolahan-pasut-ttide-1/</guid>
       <description>
         
           
